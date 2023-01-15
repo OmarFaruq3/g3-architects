@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
 }
 
 /* common style */
@@ -29,6 +30,7 @@ a {
 p {
     font-size: 16px;
     color: #727272;
+    line-height: 26px;
 }
 
 /* navbar style */
@@ -58,4 +60,82 @@ header {
 .navbar > ul > li > a:hover {
     cursor: pointer;
     color: #fa8704;
+}
+/* banner style */
+.banner {
+    text-align: center;
+}
+.banner > h1 {
+    margin-top: 70px;
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner img {
+    width: 100%;
+    margin: 50px 0 40px;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features-info > h1 {
+    font-size: 45px;
+    color: #727272;
+}
+.features-info .black {
+    font-weight: bold;
+    color: #131313;
+}
+.features-info .orange {
+    font-weight: bold;
+    color: #ff900e;
+}
+.features-info > p {
+    margin-bottom: 30px;
+}
+
+/* love & enjoy section style */
+.love-enjoy {
+    display: flex;
+    justify-content: space-between;
+    gap: 145px;
+}
+.love-enjoy .info h1 {
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 4px solid #ff900e;
+    padding-left: 10px;
+}
+.love-enjoy p {
+    margin-bottom: 30px;
+}
+.text-card {
+    padding: 10px 35px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ececec;
+    margin-bottom: 25px;
+}
+.text-card p {
+    margin-bottom: 0px;
+}
+.btn-10-year {
+    cursor: pointer;
+    background-color: #ff900e;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px 40px;
+    font-size: 18px;
+    position: relative;
+    bottom: 120px;
+    left: -90px;
+}
+.btn-10-year > span {
+    font-size: 65px;
+    font-weight: 700;
+}
+.btn-10-year:hover {
+    background-color: #fa8704;
 }
