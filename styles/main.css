@@ -28,7 +28,7 @@ a {
     margin-top: 130px;
 }
 p {
-    font-size: 16px;
+    font-size: 19px;
     color: #727272;
     line-height: 26px;
 }
@@ -78,6 +78,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 70px;
+}
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px 24px;
 }
 .features-info > h1 {
     font-size: 45px;
