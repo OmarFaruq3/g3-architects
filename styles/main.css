@@ -170,3 +170,21 @@ header {
     font-weight: 700;
     color: #424242;
 }
+
+/* sponsors style */
+.sponsors {
+    margin-top: 130px;
+    text-align: center;
+}
+.sponsors-logo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.sponsors-logo > img {
+    filter: grayscale(100%);
+}
+.sponsors-logo > img:hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+}
